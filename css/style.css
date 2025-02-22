@@ -257,6 +257,9 @@ h1 span {
 
 main .logo {
     margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffc636;
 }
 
 img {
@@ -271,8 +274,7 @@ img {
     padding: .6em .9em;
     border-radius: 3px;
     margin-bottom: 1rem;
-    background-color: #1a477f;
-    background-image: linear-gradient(to right, #00a5ad, #00bad3, #006db6, #1598f0);
+    background-color: #f1c40f;
     background-size: 300% 100%;
     color: #fff;
     border: none;
@@ -280,6 +282,7 @@ img {
     transition: all .4sease-in-out;
     font-family: var(--s-heading);
 }
+
 a {
     text-decoration: none;
     transition: .3sease;
