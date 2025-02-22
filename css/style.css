@@ -306,6 +306,10 @@ a {
     .hero {
         padding-right: 360px;
     }
+    
+    .banner img {
+        transform: translateY(100px);
+    }
 }
 
 @media (min-width: 1200px) {
