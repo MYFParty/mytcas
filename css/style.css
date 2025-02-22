@@ -224,7 +224,7 @@ header .logo i {
     }
 }
 
-.t-intro h1 {
+.hero h1 {
     font-weight: 700;
     z-index: 2;
     position: relative;
@@ -316,4 +316,38 @@ a {
 
 .hero h1{
     color: var(--blue);
+}
+
+@media (min-width: 1200px) {
+     .banner {
+        top: 140px;
+        right: 20px;
+        width: 500px;
+    }
+}
+@media (min-width: 1024px) {
+     .banner {
+        top: 180px;
+        right: 30px;
+        width: 38%;
+    }
+}
+@media (min-width: 900px) {
+     .banner {
+        width: 400px;
+        max-width: unset;
+    }
+}
+@media (min-width: 768px) {
+     .banner {
+        position: absolute;
+        right: 10px;
+        top: 90px;
+        width: 360px;
+        z-index: 1;
+    }
+}
+ .banner {
+    padding: 20px 10px 0;
+    max-width: 400px;
 }
