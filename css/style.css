@@ -296,3 +296,13 @@ a {
     cursor: pointer;
     color: var(--s-link-1);
 }
+
+.hero{
+    padding: 80px 20px 0;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding-right: 360px;
+    }
+}
