@@ -313,6 +313,7 @@ a {
     
     body {
         overflow: hidden;
+        height: 100vh;
     }
     
     html {
@@ -397,7 +398,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: -40px
+    margin-top: -40px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
  .search a {
