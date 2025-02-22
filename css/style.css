@@ -260,6 +260,7 @@ h1 span {
     font-size: 36px;
     font-weight: 600;
     color: #ffc636;
+    user-select: none;
 }
 
 img {
@@ -305,11 +306,4 @@ a {
     .hero {
         padding-right: 360px;
     }
-}
-
-main .logo {
-    margin-bottom: 16px;
-    font-size: 36px;
-    font-weight: 600;
-    color: #ffc636;
 }
