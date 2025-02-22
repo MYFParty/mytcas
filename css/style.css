@@ -352,19 +352,11 @@ a {
     max-width: 400px;
 }
 
-main.hero{
+main.main-hero {
     min-height: 100vh;
-    background-image: url(https://mytcas.com/img/search.webp);
+    background-image: url(/img/search.svg);
     background-size: 100% auto;
     height: 310px;
     background-position: bottom center;
     background-repeat: no-repeat;
-}
-
-.main-hero {
-    background-image: url(https://s-mytcas.pages.dev/img/search.svg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 310px;
 }
