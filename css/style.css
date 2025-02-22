@@ -76,8 +76,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(/img/bg.webp);
-    background-size: 80% auto;
+    background-image: url(/img/bar.svg);
+    background-size: 50% auto;
     background-position: top 60px right;
     background-repeat: no-repeat;
     background-attachment: fixed;
