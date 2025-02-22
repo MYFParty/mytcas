@@ -428,3 +428,23 @@ main.main-hero {
 .search-hide .i-university {
     width: 20px;
 }
+
+h5, ._h5 {
+    font-size: 1em;
+}
+
+.t-intro .search a {
+    color: #fff;
+    font-size: .875em;
+    justify-content: center;
+}
+.search-hide {
+    transition: .4sease-in-out;
+    padding-top: 12px;
+}
+.s-flex {
+    display: flex
+;
+    align-items: center;
+    gap: 6px;
+}
