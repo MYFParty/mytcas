@@ -279,13 +279,19 @@ img {
     color: #fff;
     border: none;
     font-weight: 700;
-    transition: all .4sease-in-out;
+    transition: all .4s ease-in-out;
     font-family: var(--s-heading);
+}
+
+.btn-main:hover {
+    color: #fff;
+    background-position: #ffaf36;
+    transform: scale(1.06);
 }
 
 a {
     text-decoration: none;
-    transition: .3sease;
+    transition: .3s ease;
     cursor: pointer;
     color: var(--s-link-1);
 }
