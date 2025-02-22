@@ -224,3 +224,27 @@ nav {
     }
 }
 
+.t-intro h1 {
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+    h1, ._h1 {
+        font-size: 2em;
+    }
+}
+h1, ._h1 {
+    font-size: 1.8em;
+}
+
+h1 span {
+    display: block;
+}
+
+.th {
+    font-size: .75em;
+    padding-top: 10px;
+}
