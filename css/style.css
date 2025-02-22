@@ -311,14 +311,6 @@ a {
         transform: translateY(100px);
     }
     
-    body {
-        overflow: hidden;
-        height: 100vh;
-    }
-    
-    html {
-        overflow: hidden;
-    }
 }
 
 @media (min-width: 1200px) {
