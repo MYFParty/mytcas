@@ -248,3 +248,18 @@ h1 span {
     font-size: .75em;
     padding-top: 10px;
 }
+
+@media (min-width: 1024px) {
+    main .logo {
+        width: 180px;
+    }
+}
+
+main .logo {
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
