@@ -153,7 +153,7 @@ nav {
     color: #f1c40f;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 520px) {
     nav {
         flex-direction: column;
         text-align: center;
