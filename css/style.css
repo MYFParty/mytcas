@@ -308,6 +308,12 @@ a {
     }
 }
 
+@media (min-width: 1200px) {
+    .hero {
+        padding: 140px 40px 80px;
+    }
+}
+
 .hero h1{
     color: var(--blue);
 }
