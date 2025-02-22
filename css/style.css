@@ -351,3 +351,12 @@ a {
     padding: 20px 10px 0;
     max-width: 400px;
 }
+
+main.hero{
+    min-height: 100vh;
+    background-image: url(https://mytcas.com/img/search.webp);
+    background-size: 100% auto;
+    height: 310px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
