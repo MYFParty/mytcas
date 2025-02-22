@@ -80,7 +80,7 @@ body {
     background-size: 50% auto;
     background-position: top 60px right;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
 }
 
 body {
