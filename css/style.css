@@ -310,6 +310,10 @@ a {
     .banner img {
         transform: translateY(100px);
     }
+    
+    body {
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -356,9 +360,6 @@ a {
     max-width: 400px;
 }
 
-main.main-hero {
-    min-height: 100vh;
-}
 
 
 @media (min-width: 1800px) {
