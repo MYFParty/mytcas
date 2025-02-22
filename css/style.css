@@ -307,3 +307,7 @@ a {
         padding-right: 360px;
     }
 }
+
+.hero h1{
+    color: var(--blue);
+}
