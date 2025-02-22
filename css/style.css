@@ -360,3 +360,11 @@ main.hero{
     background-position: bottom center;
     background-repeat: no-repeat;
 }
+
+.main-hero {
+    background-image: url(https://s-mytcas.pages.dev/img/search.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 310px;
+}
