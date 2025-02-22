@@ -63,6 +63,14 @@
     --s-container-width: 100%;
 }
 
+html {
+    font-family: var(--s-body);
+    background-color: var(--s-bg-1);
+    color: var(--s-text-1);
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background: var(--bg);
     position: relative;
