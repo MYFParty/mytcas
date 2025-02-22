@@ -285,7 +285,8 @@ img {
 
 .btn-main:hover {
     color: #fff;
-    background-position: #ffaf36;
+    background: #ffaf36;
+    background-position: 100% 0;
     transform: scale(1.06);
 }
 
