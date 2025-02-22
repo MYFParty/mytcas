@@ -76,7 +76,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(/img/bg.png);
+    background-image: url(/img/bg.svg);
     background-size: 80% auto;
     background-position: top 60px right;
     background-repeat: no-repeat;
