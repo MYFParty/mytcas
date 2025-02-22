@@ -314,6 +314,10 @@ a {
     body {
         overflow: hidden;
     }
+    
+    html {
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 1200px) {
