@@ -100,7 +100,7 @@ body {
 }
 
 header {
-    background: #2c3e50;
+    background: #1a477f;
     color: white;
     padding: 15px 0;
     position: fixed;
@@ -124,6 +124,8 @@ nav {
     font-weight: bold;
     display: flex;
     align-items: center;
+    user-select: none;
+    cursor: pointer;
 }
 
 .logo i {
@@ -134,6 +136,7 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 .nav-links li {
@@ -156,11 +159,20 @@ nav {
         flex-direction: column;
         text-align: center;
     }
-
-    .nav-links {
+    
+      .nav-links {
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: height 0.3s ease, opacity 0.3s ease;
+      }
+    
+      .nav-links.active {
+        height: auto;
+        opacity: 1;
         margin-top: 10px;
         flex-direction: column;
-    }
+      }
 
     .nav-links li {
         margin: 10px 0;
